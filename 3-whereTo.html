@@ -1,0 +1,126 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<!-- #1 -->
+<h2>JavaScript in Body</h2>
+
+<p id="demo"></p>
+<p id="demooo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+document.getElementById('demooo').innerHTML ="First JS" 
+</script>
+<hr>
+
+
+
+<!-- #2 -->
+<head>
+    <script>
+    // function myFunction() {
+    //   document.getElementById("demo1").innerHTML = "Paragraph changed.";
+    // }
+
+    function myChange() {
+        document.getElementById("demoo1").innerHTML="i am chaged"
+    }
+
+    </script>
+</head>
+    <body>
+    
+    <h2>Demo JavaScript in Head</h2>
+    
+    <!-- <p id="demo1">A Paragraph.</p> -->
+    <p id="demoo1">I am not changed.</p>
+    
+    <!-- <button type="button" onclick="myFunction()">Try it</button> -->
+    <button type="button" onclick="myChange()">Make change</button>
+    <hr>
+
+
+    <!-- #3 -->
+    <h2>Demo JavaScript in Body</h2>
+
+    <p id="demo2">A Paragraph</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <script>
+    function myFunction() {
+    document.getElementById("demo2").innerHTML = "Paragraph changed.";
+    }
+    </script>
+    <hr>
+
+
+    <!-- #4 -->
+    <h2>Demo External JavaScript</h2>
+
+    <p id="demo3">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction2()">Try it</button>
+
+    <p>This example links to "myScript.js".</p>
+    <p>(myFunction is stored in "myScript.js")</p>
+
+    <script src="myScript.js"></script>
+    <hr>
+
+
+
+    <!-- #5 -->
+    <h2>External JavaScript</h2>
+
+<p id="demo5">A Paragraph.</p>
+
+<button type="button" onclick="myFunction3()">Click Me</button>
+
+<p>This example uses a full web URL to link to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+
+<hr>
+<!-- <script src="https://www.w3schools.com/js/myScript.js"></script> -->
+
+<script>
+    function myFunction3() {
+    document.getElementById("demo5").innerHTML="Paragraph changed.";
+    }
+</script>
+
+
+
+
+<!-- #6 -->
+    <h2>External JavaScript 6</h2>
+
+    <p id="demo6">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction6()">Try it</button>
+
+    <p>This example uses a file path to link to "myScript.js".</p>
+    <p>(myFunction is stored in "myScript.js")</p>
+
+    <script src="/js/myScript.js"></script>
+
+<hr>
+
+
+    <!-- #7 -->
+    <h2>Demo External JavaScript 7</h2>
+
+    <p id="demo7">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction7()">Try it</button>
+
+    <p>This example links to "myScript.js".</p>
+    <p>(myFunction is stored in "myScript.js")</p>
+
+    <script src="myScript.js"></script>
+    <hr>
+</body>
+</html> 
